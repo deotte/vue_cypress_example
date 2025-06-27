@@ -1,7 +1,7 @@
 <template>
   <div class="star-wars">
-    <h1>{{ heroName }}</h1>
-    <h2>{{ heroBirthday }}</h2>
+    <h1 data-cy="hero-name">{{ heroName }}</h1>
+    <h2 data-cy="hero-birthday">{{ heroBirthday }}</h2>
   </div>
 </template>
 
